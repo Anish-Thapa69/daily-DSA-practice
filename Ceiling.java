@@ -1,5 +1,5 @@
 
-public class DSA {
+public class Ceiling {
     public static void main(String[] args) {
  int[] arr = {2,3,4,9,14,16,18};
 int target = 15;
