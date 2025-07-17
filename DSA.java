@@ -3,10 +3,10 @@ public class DSA {
     public static void main(String[] args) {
  int[] arr = {2,3,4,9,14,16,18};
 int target = 15;
-System.err.println(ceiling(arr, target));
+System.err.println(binarysearch(arr, target));
     }
 
-    static int ceiling(int[] array, int target){
+    static int binarysearch(int[] array, int target){
 
         if(array.length == 0){
             return -1;
@@ -29,6 +29,6 @@ System.err.println(ceiling(arr, target));
         }
 
      }
-     return end;
+     return -1;
 }
 }
